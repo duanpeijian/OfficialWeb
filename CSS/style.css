@@ -1,0 +1,308 @@
+.section {
+    text-align:center;
+}
+.section span {
+    display: none;
+    font-size: 3em;
+}
+
+.section img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei" ! important;
+}
+
+.img-hover {
+
+}
+
+#mt-header {
+    background-color: #ffffff;
+}
+
+#mt-nav-bar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    //margin-bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+.navbar-nav > li > a {
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 60px;
+    color: #000;
+}
+
+.navbar-nav > li > a:hover {
+    color: #f05d15;
+}
+
+#mt-nav-bar .navbar-brand {
+    display: block;
+    height: 90px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+#mt-nav-bar .navbar-toggle {
+    background-color: #fff;
+    border-color: #fff;
+    padding-top: 29px;
+}
+
+#mt-nav-bar .navbar-toggle .icon-bar {
+    background-color: #563D7C;
+}
+
+/* footer region */
+
+.mt-footer-fixed {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.mt-footer-absolute {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+    background-color: #47494b;
+    padding-top: 29px;
+    padding-bottom:29px;
+}
+
+.mt-footer {
+    font-size: 12px;
+    background-color: #47494b;
+    padding-top: 29px;
+    padding-bottom:29px;
+}
+
+.mt-footer p {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.mt-bottom-left {
+    text-align: center;
+}
+
+.copyright {
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: table;
+}
+
+.copyright p {
+    letter-spacing: normal;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mt-bottom-right {
+    height: 110px;
+    text-align: center;
+}
+
+.bottom-qrcode {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 206px;
+}
+
+.mt-bottom-right p {
+    width: 88px;
+    position: relative;
+    top: 8px;
+}
+
+.mt-qrcode {
+    width: 88px;
+    height: 88px;
+}
+
+#mt-weixin-gzh {
+    float: left;
+}
+
+#mt-sina-weibo {
+    float: left;
+    margin-left: 30px;
+}
+
+@media (min-width: 992px) {
+    .mt-bottom-left {
+        padding-right: 60px;
+    }
+
+    .copyright {
+        height: 110px;
+        float: right;
+    }
+
+    .mt-bottom-right {
+        padding-left: 60px;
+        border-left: 1px solid #ffffff;
+    }
+    .bottom-qrcode{
+        margin-left: 0;
+    }
+}
+
+#mt-container {
+    padding-top: 90px;
+}
+
+.mt-page {
+    position: relative;
+}
+
+.mt-img-btn {
+    position: absolute;
+    top: 58.4%;
+    width: 100%;
+    text-align: center;
+}
+
+.mt-img-btn img {
+    width: 13%;
+    height: auto;
+}
+
+.mt-video-area {
+    position: absolute;
+    top: 44%;
+    left: 18.4375%;
+    width: 24.58%;
+    height: 26.5%;
+}
+
+.mt-video {
+    width: 100%;
+    height: 100%;
+}
+
+.mt-video-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.mt-video-btn {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mt-video-btn > img {
+    position: absolute;
+    width: 25.42%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -12.71%;
+    margin-top: -12.71%;
+}
+
+.download-block {
+    position: absolute;
+    top: 33.4%;
+    width: 100%;
+}
+
+.download-block-left {
+    position: absolute;
+    width: 100%;
+    left: 29.17%;
+}
+
+.qrcode-square {
+    width: 7.81%;
+    height: auto;
+}
+
+.qr-code {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7.81%;
+    height: auto;
+    padding: 1px;
+}
+
+@media (min-width: 768px) {
+    .qr-code {
+        padding: 5px;
+    }
+}
+
+.download-block-right {
+    position: relative;
+    width: 100%;
+    left: 52.604%;
+}
+
+.desc-block {
+    position: absolute;
+    top: 0;
+    left: 9.375%;
+    height: 100%;
+    width: 8.854%;
+}
+
+.desc-block .mt-desc-text {
+    position: absolute;
+    bottom: 40%;
+}
+
+.desc-block .mt-download-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+.desc-block p {
+    margin-bottom: 0;
+    /*font-family: 宋体;*/
+    font-size: 5px;
+}
+
+@media (min-width: 768px) {
+    .desc-block p {
+
+    }
+}
+
+@media (min-width: 1900px) {
+    .desc-block p {
+        position: absolute;
+        font-size: 8.235%;
+    }
+
+    .desc-block .p1 {
+        bottom: 65.88%;
+    }
+
+    .desc-block .p2 {
+        bottom: 50.59%;
+    }
+
+    .desc-block .p3 {
+        bottom: 35.294%;
+        /*bottom: 0;*/
+    }
+}
